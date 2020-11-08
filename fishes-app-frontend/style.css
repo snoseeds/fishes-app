@@ -1,0 +1,64 @@
+.main {
+    width: 90vw;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#container {
+    margin-bottom: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width: 50px;
+}
+
+.fish-item {
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+
+.fish-item:not(:last-child) {
+    border-bottom: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-end;
+    /* margin: 10px 0; */
+    margin-left: 5px;
+}
+
+.app-btn {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn {
+    padding: 5px 20px;
+}
+
+.form-field {
+    padding: 5px;
+    flex-grow: 1;
+}
